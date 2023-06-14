@@ -22,7 +22,7 @@ class LateFusion:
         else:
             self.weights = weights
 
-    def apply_fusion(self, predictions):
+    def predict(self, predictions):
         """
         Calculate fused predictions using weighted average
 
