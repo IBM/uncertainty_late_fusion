@@ -22,7 +22,7 @@ class UncertaintyLateFusion(LateFusion):
         w /= np.sum(w)
         return w
 
-    def compute_fusion_weights(self, predictions, ground_truth):
+    def train(self, predictions, ground_truth):
         """
         Calculate fusion weights with model selection
 
